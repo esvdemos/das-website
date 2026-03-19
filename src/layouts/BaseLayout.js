@@ -9,7 +9,7 @@ export default function BaseLayout({children}) {
     return (
         <div className="baselayout">
             <Navbar/>
-            <Container>
+            <Container className="mainContainer">
                 <div className="content">
                     {children}
                 </div>

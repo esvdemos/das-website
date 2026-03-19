@@ -9,6 +9,13 @@
 
 html, body{
     min-height: 100%;
+    height: 100%;
+}
+
+/* Gatsby root elements need full height so the flex-based sticky footer works consistently */
+#__gatsby,
+#gatsby-focus-wrapper {
+    height: 100%;
 }
 
 body{
@@ -26,6 +33,13 @@ p {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+/* Ensure the MUI Container in BaseLayout has enough height so the footer sits at the bottom
+   on short pages (left-to-right issue reported in devtools: .MuiContainer-root). */
+.mainContainer {
+    min-height: 80vh;
+    width: 100%;
 }
 
 .container, .content{
