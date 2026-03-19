@@ -22,9 +22,19 @@ p {
     line-height: 1.5em;
 }
 
+.baselayout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .container, .content{
     max-width: 1080px;
     margin: 0 auto;
+}
+
+.content {
+    flex: 1;
 }
 
 .pre-navigation{
