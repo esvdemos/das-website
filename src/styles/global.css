@@ -32,7 +32,7 @@ p {
 .baselayout {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 /* Ensure the MUI Container in BaseLayout has enough height so the footer sits at the bottom
@@ -40,6 +40,8 @@ p {
 .mainContainer {
     min-height: 80vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .container, .content{
@@ -49,6 +51,7 @@ p {
 
 .content {
     flex: 1;
+    width: 100%;
 }
 
 .pre-navigation{
