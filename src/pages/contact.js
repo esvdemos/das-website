@@ -37,7 +37,7 @@ export default function Contact() {
             <SectionTitle title="Phone"/>
             <Spacer spacing={2}/>
             <Stack spacing={2} style={{textAlign: "center"}}>
-            <Link underline="none" href="tel:+31 6 36559452" style={{color: "black"}}>+31 6 36559452</Link>
+            <Link underline="none" href="tel:+31657031957" style={{color: "black"}}>+31 6 57 03 19 57</Link>
             </Stack>
             <Spacer spacing={4}/>
 
